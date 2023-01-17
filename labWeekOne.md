@@ -12,7 +12,7 @@ This should lead you to a site that looks like this:
 
 ![Image](https://github.com/karinnamonzon/cse-15l-lab-report/blob/main/Login.png?raw=true)
 
-3. Press the button that is circled. And this will lead you to a page that will allow you to input your current password and replace it with a new password. 
+3. Press the button that is circled. And this will lead you to a page with a link **change your password** that will allow you to input your current password and replace it with a new password. 
 
 ![Image](https://github.com/karinnamonzon/cse-15l-lab-report/blob/main/ChangepassLink.png?raw=true)
 
@@ -36,3 +36,15 @@ This should lead you to a site that looks like this:
 
 This should eventually download Visual Studio Code which should like this:
 ![Image](https://github.com/karinnamonzon/cse-15l-lab-report/blob/main/VSCodeOpen.png?raw=true)
+
+---
+## **Remote Connecting using your log in credentials and VS Code**
+1. Open VSCode and open a new terminal by going to terminal at the top and selecting New Terminal or using the shortcut Ctrl+Shift+`
+2. With the terminal open type **ssh cs15lwi23zz@ieng6.ucsd.edu** (replace zz with the letters corresponding to youto own account)
+3. You will br prompted if you want to continue connecting. Type yes and press enter.
+4. Afterwards your client should connect to the remote server and look like this:
+
+![Image](https://github.com/karinnamonzon/cse-15l-lab-report/blob/main/remoteConnectedTerminal.png?raw=true)
+
+**Note:**
+*This tutorial may not work perfectly the first time*

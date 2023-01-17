@@ -39,9 +39,9 @@ This should eventually download Visual Studio Code which should like this:
 
 ---
 ## **Remote Connecting using your log in credentials and VScode**
-1. Open VSCode and open a new terminal by going to terminal at the top and selecting New Terminal or using the shortcut Ctrl+Shift+`
-2. With the terminal open type **ssh cs15lwi23zz@ieng6.ucsd.edu** (replace zz with the letters corresponding to youto own account)
-3. You will br prompted if you want to continue connecting. Type yes and press enter.
+1. Open VSCode and open a new terminal by going to terminal at the top and selecting New Terminal or using the shortcut Ctrl+Shift+` and this should show the terminal appear on your screen.
+2. With the terminal open type **ssh cs15lwi23zz@ieng6.ucsd.edu** (replace zz with the letters corresponding to youto own account) and press Enter on your keyboard.
+3. You will br prompted if you want to continue connecting. Type yes and press Enter.
 4. Afterwards your client should connect to the remote server and look like this:
 
 ![Image](https://github.com/karinnamonzon/cse-15l-lab-report/blob/main/remoteConnectedTerminal.png?raw=true)
@@ -50,8 +50,10 @@ This should eventually download Visual Studio Code which should like this:
 *This tutorial may not work perfectly the first time*
 
 ---
-## **Running commands on the remore computer with terminal in VScode**
-Within the terminal you can run commadns such as 
+## **Running commands on the remote computer with terminal in VScode**
+
+The remote computer can be accessed from the terminal on your own personal device so that you can continue working away from the lab.
+Within the terminal you can run commadns such as:
 - cd ~
 - cs
 - ls -lat
@@ -75,10 +77,8 @@ Here is an example of using ls, cat, and cd:
 
 Typing ls in the terminal from the home directory lists 3 files. Using the cat command witht the path to hello.txt print "Hello! Welcome to CSE 15L osn the next line. With the cd perl5 command it opens the perl5 file. The ls command does not produce anything on the next line because the perl5 file is empty. The cd ~ command returns the path to the home directory.
 
-Exiting the remote computer with exit:
+You can exit the remote computer by typing exit into the terminal or using the Ctrl-D shortcut on you keyboard. This is what exiting the remote computer with exit looks like:
 
 ![Image](https://github.com/karinnamonzon/cse-15l-lab-report/blob/main/exitRemote.png?raw=true)
 
----
-## **Setting up GitHub**
 

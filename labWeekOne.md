@@ -1,5 +1,5 @@
 # Karinna Monzon Lab Report 1
----
+
 ## **Setting up your CSE15L Account**
 
 1. First set up your CSE15L account at this link: [Link](https://sdacs.ucsd.edu/~icc/index.php)
@@ -38,7 +38,7 @@ This should eventually download Visual Studio Code which should like this:
 ![Image](https://github.com/karinnamonzon/cse-15l-lab-report/blob/main/VSCodeOpen.png?raw=true)
 
 ---
-## **Remote Connecting using your log in credentials and VS Code**
+## **Remote Connecting using your log in credentials and VScode**
 1. Open VSCode and open a new terminal by going to terminal at the top and selecting New Terminal or using the shortcut Ctrl+Shift+`
 2. With the terminal open type **ssh cs15lwi23zz@ieng6.ucsd.edu** (replace zz with the letters corresponding to youto own account)
 3. You will br prompted if you want to continue connecting. Type yes and press enter.
@@ -48,3 +48,16 @@ This should eventually download Visual Studio Code which should like this:
 
 **Note:**
 *This tutorial may not work perfectly the first time*
+
+---
+## **Running commands on the remore computer with terminal in VScode**
+Within the terminal you can run commans such as 
+- cd ~
+- cs
+- ls -lat
+- ls -a
+- cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
+- cat /home/linux/ieng/cse15lwi23/public/hello.txt
+- exit or Ctrl-D
+
+

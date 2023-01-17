@@ -1,5 +1,8 @@
 # Karinna Monzon Lab Report 1
 
+Karinna Monzon
+A17368401
+
 This lab report will go over the processes installing VScode, processes for remotely connecting, and trying commands on the terminal connected to the remote computer.
 
 ## **Setting up your CSE15L Account**

@@ -51,13 +51,34 @@ This should eventually download Visual Studio Code which should like this:
 
 ---
 ## **Running commands on the remore computer with terminal in VScode**
-Within the terminal you can run commans such as 
+Within the terminal you can run commadns such as 
 - cd ~
 - cs
 - ls -lat
 - ls -a
+- mkdir
 - cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
 - cat /home/linux/ieng/cse15lwi23/public/hello.txt
 - exit or Ctrl-D
 
+**Examples**
+
+Here is an example of using ls and mkDir:
+
+![Image](https://github.com/karinnamonzon/cse-15l-lab-report/blob/main/lsAndmkDir.png?raw=true)
+
+In the terminal typing ls lsits the exisitng files in the home directory which are hello.txt and perl5. After using mkdir newFile it affs a new directory for newFile. After ls is ran again, the files from before have the addition of newFile.
+
+Here is an example of using ls, cat, and cd:
+
+![Image](https://github.com/karinnamonzon/cse-15l-lab-report/blob/main/terminaltest.png?raw=true)
+
+Typing ls in the terminal from the home directory lists 3 files. Using the cat command witht the path to hello.txt print "Hello! Welcome to CSE 15L osn the next line. With the cd perl5 command it opens the perl5 file. The ls command does not produce anything on the next line because the perl5 file is empty. The cd ~ command returns the path to the home directory.
+
+Exiting the remote computer with exit:
+
+![Image](https://github.com/karinnamonzon/cse-15l-lab-report/blob/main/exitRemote.png?raw=true)
+
+---
+## **Setting up GitHub**
 

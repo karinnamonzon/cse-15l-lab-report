@@ -1,5 +1,7 @@
 # Karinna Monzon Lab Report 1
 
+This lab report will go over the processes installing VScode, processes for remotely connecting, and trying commands on the terminal connected to the remote computer.
+
 ## **Setting up your CSE15L Account**
 
 1. First set up your CSE15L account at this link: [Link](https://sdacs.ucsd.edu/~icc/index.php)

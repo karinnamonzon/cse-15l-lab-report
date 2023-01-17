@@ -6,7 +6,7 @@ First set up your CSE15L account at this link: [Link](https://sdacs.ucsd.edu/~ic
 
 This should lead you to a site that looks like this:
 
-![Image](http://url/a.png)
+![Image](https://github.com/karinnamonzon/cse-15l-lab-report/blob/main/Account%20Lookup%20-%20sdacs.ucsd.edu.png?raw=true)
 
 Put in your UCSD username (what comes before @ucsd.edu in your email) and student PID in the account lookup fields. Which will lead you to a page that looks like this:
 

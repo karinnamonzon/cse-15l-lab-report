@@ -50,7 +50,7 @@ This should eventually download Visual Studio Code which should like this:
 
 ![Image](https://github.com/karinnamonzon/cse-15l-lab-report/blob/main/promptYes.PNG?raw=true)
 
-4. Afterwards your client should connect to the remote server and look like this:
+Afterwards your client should connect to the remote server and look like this:
 
 ![Image](https://github.com/karinnamonzon/cse-15l-lab-report/blob/main/remoteConnectedTerminal.png?raw=true)
 

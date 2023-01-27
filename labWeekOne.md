@@ -46,7 +46,7 @@ This should eventually download Visual Studio Code which should like this:
 ## **Remote Connecting using your log in credentials and VScode**
 1. Open VSCode and open a new terminal by going to terminal at the top and selecting New Terminal or using the shortcut Ctrl+Shift+` and this should show the terminal appear on your screen.
 2. With the terminal open type `ssh cs15lwi23zz@ieng6.ucsd.edu` (replace zz with the letters corresponding to youto own account) and press Enter on your keyboard.
-3. You will be prompted if you want to continue connecting as shown below. Type yes and press Enter. After, you'll be prompted to type your new password that you reset in earlier steps. Nothing will show up as your type it so make sure you type it correctly. Press enter to submit.
+3. You will be prompted if you want to continue connecting as shown below. Type yes and press Enter. After, you'll be prompted to type your new password that you reset in earlier steps. Nothing will show up as your type it so make sure you type it correctly then press Enter.
 ![Image](https://github.com/karinnamonzon/cse-15l-lab-report/blob/main/promptYes.PNG?raw=true)
 
 4. Afterwards your client should connect to the remote server and look like this:

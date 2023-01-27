@@ -46,7 +46,7 @@ This should eventually download Visual Studio Code which should like this:
 ## **Remote Connecting using your log in credentials and VScode**
 1. Open VSCode and open a new terminal by going to terminal at the top and selecting New Terminal or using the shortcut Ctrl+Shift+` and this should show the terminal appear on your screen.
 2. With the terminal open type `ssh cs15lwi23zz@ieng6.ucsd.edu` (replace zz with the letters corresponding to youto own account) and press Enter on your keyboard.
-3. You will be prompted if you want to continue connecting as shown below. Type yes and press Enter. After, you'll be prompted to type your new password that you reset in earlier steps. Nothing will show up as your type it so make sure you type it correctly. Press enter to submit password.
+3. You will be prompted if you want to continue connecting as shown below. Type yes and press Enter. After, you'll be prompted to type your new password that you reset in earlier steps. Nothing will show up as your type it so make sure you type it correctly. Press enter to submit.
 ![Image](https://github.com/karinnamonzon/cse-15l-lab-report/blob/main/promptYes.PNG?raw=true)
 
 4. Afterwards your client should connect to the remote server and look like this:
@@ -72,17 +72,17 @@ Within the terminal you can run commadns such as:
 
 **Examples**
 
-Here is an example of using ls and mkDir:
+Here is an example of using `ls` and `mkDir`:
 
 ![Image](https://github.com/karinnamonzon/cse-15l-lab-report/blob/main/lsAndmkDir.png?raw=true)
 
-In the terminal typing ls lsits the exisitng files in the home directory which are hello.txt and perl5. After using mkdir newFile it affs a new directory for newFile. After ls is ran again, the files from before have the addition of newFile.
+In the terminal typing ls lsits the existing files in the home directory which are hello.txt and perl5. After using `mkdir newFile` it creates a new directory for newFile. After `ls` is ran again, the files from before have the addition of newFile.
 
-Here is an example of using ls, cat, and cd:
+Here is an example of using `ls`, `cat`, and `cd`:
 
 ![Image](https://github.com/karinnamonzon/cse-15l-lab-report/blob/main/terminaltest.png?raw=true)
 
-Typing ls in the terminal from the home directory lists 3 files. Using the cat command witht the path to hello.txt print `Hello! Welcome to CSE 15L` on the next line. With the cd perl5 command it opens the perl5 file. The ls command does not produce anything on the next line because the perl5 file is empty. The cd ~ command returns the path to the home directory.
+Typing `ls` in the terminal from the home directory lists 3 files. Using the cat command witht the path to hello.txt print `Hello! Welcome to CSE 15L` on the next line. With the `cd perl5` command it opens the perl5 file. The `ls` command does not produce anything on the next line because the perl5 file is empty. The `cd ~` command returns the path to the home directory.
 
 You can exit the remote computer by typing exit into the terminal or using the Ctrl-D shortcut on you keyboard. This is what exiting the remote computer with exit looks like:
 

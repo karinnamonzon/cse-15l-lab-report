@@ -31,11 +31,11 @@ This should lead you to a site that looks like this:
 
 ## **Setting up remote Visual Studio Code**
 
-1. The Visual Studio Code website will allow you to download VS Code onto your computer. If you have a Windows system then clock the circled button labelled "DownLoad for Windows." If you do not have a Windows system click the button with an arrow to open a drop-down meny that will link you to other downloads for macOS and Linux.
+1. The [Visual Studio Code website](https://code.visualstudio.com/) will allow you to download VS Code onto your computer. If you have a Windows system then clock the circled button labelled "DownLoad for Windows." If you do not have a Windows system click the button with an arrow to open a drop-down meny that will link you to other downloads for macOS and Linux.
 
 ![Image](https://github.com/karinnamonzon/cse-15l-lab-report/blob/main/VSCode%20website.png?raw=true)
 
-2. After openign the download file, it will lead you a window that will ask you accept an  agreement. Accept it and press Next.
+2. After opening the download file, it will lead you a window that will ask you accept an  agreement. Accept it and press Next.
 3. It will then allow you to set where Visual Studio Code will be saved. You can change this to your own path or keep it in a default location.. Press Next after you have decided.
 4. The next windows it will show you are about your preferences in for the download. Read through these and press Next after you have selected your preferences.
 
@@ -45,8 +45,10 @@ This should eventually download Visual Studio Code which should like this:
 ---
 ## **Remote Connecting using your log in credentials and VScode**
 1. Open VSCode and open a new terminal by going to terminal at the top and selecting New Terminal or using the shortcut Ctrl+Shift+` and this should show the terminal appear on your screen.
-2. With the terminal open type **ssh cs15lwi23zz@ieng6.ucsd.edu** (replace zz with the letters corresponding to youto own account) and press Enter on your keyboard.
-3. You will br prompted if you want to continue connecting. Type yes and press Enter.
+2. With the terminal open type `ssh cs15lwi23zz@ieng6.ucsd.edu` (replace zz with the letters corresponding to youto own account) and press Enter on your keyboard.
+3. You will be prompted if you want to continue connecting as shown below. Type yes and press Enter. After, you'll be prompted to type your new password that you reset in earlier steps. Nothing will show up as your type it so make sure you type it correctly. Press enter to submit password.
+![Image](https://github.com/karinnamonzon/cse-15l-lab-report/blob/main/promptYes.PNG?raw=true)
+
 4. Afterwards your client should connect to the remote server and look like this:
 
 ![Image](https://github.com/karinnamonzon/cse-15l-lab-report/blob/main/remoteConnectedTerminal.png?raw=true)
@@ -59,14 +61,14 @@ This should eventually download Visual Studio Code which should like this:
 
 The remote computer can be accessed from the terminal on your own personal device so that you can continue working away from the lab.
 Within the terminal you can run commadns such as:
-- cd ~
-- cs
-- ls -lat
-- ls -a
-- mkdir
-- cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
-- cat /home/linux/ieng/cse15lwi23/public/hello.txt
-- exit or Ctrl-D
+- `cd ~`
+- `cs`
+- `ls -lat`
+- `ls -a`
+- `mkdir`
+- `cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/`
+- `cat /home/linux/ieng/cse15lwi23/public/hello.txt`
+- `exit or Ctrl-D`
 
 **Examples**
 
@@ -80,7 +82,7 @@ Here is an example of using ls, cat, and cd:
 
 ![Image](https://github.com/karinnamonzon/cse-15l-lab-report/blob/main/terminaltest.png?raw=true)
 
-Typing ls in the terminal from the home directory lists 3 files. Using the cat command witht the path to hello.txt print "Hello! Welcome to CSE 15L osn the next line. With the cd perl5 command it opens the perl5 file. The ls command does not produce anything on the next line because the perl5 file is empty. The cd ~ command returns the path to the home directory.
+Typing ls in the terminal from the home directory lists 3 files. Using the cat command witht the path to hello.txt print `Hello! Welcome to CSE 15L` on the next line. With the cd perl5 command it opens the perl5 file. The ls command does not produce anything on the next line because the perl5 file is empty. The cd ~ command returns the path to the home directory.
 
 You can exit the remote computer by typing exit into the terminal or using the Ctrl-D shortcut on you keyboard. This is what exiting the remote computer with exit looks like:
 

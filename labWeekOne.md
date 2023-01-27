@@ -1,5 +1,3 @@
-![Fancy logo](.dark.png#gh-dark-mode-only)
-
 # Karinna Monzon Lab Report 1
 
 Karinna Monzon

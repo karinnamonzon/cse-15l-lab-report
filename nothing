@@ -1,0 +1,16 @@
+```
+print('I like you a lot.')
+
+print('Happy Valentine's Day <3')
+
+print('Will you be my girlfriend?')
+
+if answer == yes:
+    ripToShreds(thisPaper)
+    print('YIPPEE')
+
+elif answer == no:
+    crumple(thisPaper)
+    print('...lol awkward..')
+    
+```
